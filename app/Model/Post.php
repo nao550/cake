@@ -1,0 +1,2 @@
+clsss Post extends AppMode {
+}
