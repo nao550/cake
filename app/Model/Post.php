@@ -1,2 +1,7 @@
-clsss Post extends AppMode {
+<?php
+
+class Post extends AppModel {
+
 }
+
+?>
