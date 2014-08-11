@@ -12,7 +12,7 @@ class PostsController extends AppController {
             throw new NotFoundException( __ ('Invalid post'));
         }
 
-        $post = $his->Post->findById( $id );
+        $post = $this->Post->findById( $id );
         if( ! $post ){
             throw new NotFoundException( __ ('Invalid post'));
         }
